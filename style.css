@@ -2,7 +2,6 @@
 body {
   font-family: 'Lato', sans-serif;
   transition: background-color 0.5s;
-  background-color: lightblue;
 }
 
 .sidenav {
@@ -51,4 +50,10 @@ body {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+/* side nav title */
+h2 {
+  margin-left: 20px;
+  color: white;
 }
