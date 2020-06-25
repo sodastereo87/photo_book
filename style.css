@@ -17,6 +17,7 @@ body {
   padding-top: 60px;
 }
 
+.fab,
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -26,6 +27,7 @@ body {
   transition: 0.3s;
 }
 
+.fab:hover,
 .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -56,4 +58,14 @@ body {
 h2 {
   margin-left: 20px;
   color: white;
+}
+
+/* social media icons */
+.fab {
+  color: #818181;
+}
+
+.social {
+  display: flex;
+  padding-top: 300px;
 }
