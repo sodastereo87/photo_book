@@ -54,6 +54,13 @@ body {
   }
 }
 
+/* title */
+h3 {
+  margin-left: 20px;
+  color: black;
+  text-align: center;
+}
+
 /* side nav title */
 h2 {
   margin-left: 20px;
