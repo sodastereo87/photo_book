@@ -84,11 +84,10 @@ a {
   text-decoration: none;
   width: 60px;
   height: 60px;
-  /* color: #fff; */
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 15px 15px;
+  margin: 15px 10px;
 }
 
 .social-buttons a::before {
