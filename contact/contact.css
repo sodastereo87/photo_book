@@ -60,18 +60,20 @@ h2 {
   color: white;
 }
 
-/* social media icons */
-.fab {
+/* social media icons sidebar */
+.fab,
+a {
   color: #818181;
 }
 
-.social {
+.socialbar {
   display: flex;
   padding-top: 300px;
 }
 
-/* social media icons */
+/* social media icons animation */
 .social {
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,10 +82,9 @@ h2 {
 .social-buttons a {
   display: inline-flex;
   text-decoration: none;
-  font-size: 18px;
   width: 60px;
   height: 60px;
-  color: #fff;
+  /* color: #fff; */
   justify-content: center;
   align-items: center;
   position: relative;
@@ -106,7 +107,7 @@ h2 {
 }
 
 .social-buttons a:hover i {
-  background: linear-gradient(45deg, #22a6b3, #30336b);
+  background: linear-gradient(45deg, #ebd8e8, #e484c7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(2.2);
