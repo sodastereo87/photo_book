@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/f1f7f2d043.js" crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="gallery.css" />
+</head>
+
+<body>
+  <!-- sidebar -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <i class="fas fa-angle-double-left"></i>
+    </a>
+    <h2>Marjorie</h2>
+    <h2>Diaz</h2>
+    <a href="../index.html">Main</a>
+    <a href="../about/about.html">About</a>
+    <a href="#">Gallery</a>
+    <a href="contact/contact.html">Contact</a>
+    <div class="social">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+  </div>
+  <!-- page -->
+  <div id="main">
+    <div class="container">
+      <span style="font-size: 30px; cursor: pointer;" onclick="openNav()">
+        <i class="fas fa-stream"></i>
+      </span>
+
+      <!-- Header -->
+      <div class="header" id="myHeader">
+        <h1>Gallery</h1>
+        <button class="btn" onclick="one()">1</button>
+        <button class="btn active" onclick="two()">2</button>
+        <button class="btn" onclick="four()">4</button>
+      </div>
+
+      <!-- Photo Grid -->
+      <div class="row">
+        <div class="column">
+          <img src="../pictures/banco.jpg" style="width:100%">
+          <img src="../pictures/banco2.jpg" style="width:100%">
+          <img src="../pictures/blacknwhite.jpg" style="width:100%">
+          <img src="../pictures/green2.jpg" style="width:100%">
+          <img src="../pictures/pink2.jpg" style="width:100%">
+          <img src="../pictures/blackpants.jpg" style="width:100%">
+          <img src="../pictures/face2.jpeg" style="width:100%">
+          <img src="../pictures/rayas2.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../pictures/face.jpg" style="width:100%">
+          <img src="../pictures/bikini.jpg" style="width:100%">
+          <img src="../pictures/naranja.jpg" style="width:100%">
+          <img src="../pictures/naranja2.jpeg" style="width:100%">
+          <img src="../pictures/naranja3.jpeg" style="width:100%">
+          <img src="../pictures/bikiniside.jpg" style="width:100%">
+          <img src="../pictures/tommy.jpg" style="width:100%">
+          <img src="../pictures/tommy2.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../pictures/black2.jpg" style="width:100%">
+          <img src="../pictures/escalera.jpeg" style="width:100%">
+          <img src="../pictures/sexyblack.jpeg" style="width:100%">
+          <img src="../pictures/smoke.jpg" style="width:100%">
+          <img src="../pictures/blackbikini.jpg" style="width:100%">
+          <img src="../pictures/dress.jpg" style="width:100%">
+          <img src="../pictures/rayas3.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="../pictures/good.jpg" style="width:100%">
+          <img src="../pictures/hojas.jpg" style="width:100%">
+          <img src="../pictures/jeans.jpg" style="width:100%">
+          <img src="../pictures/luz.jpeg" style="width:100%">
+          <img src="../pictures/luz2.jpeg" style="width:100%">
+          <img src="../pictures/natural.jpeg" style="width:100%">
+          <img src="../pictures/red.jpg" style="width:100%">
+        </div>
+    </div>
+
+      <script type="text/javascript" src="gallery.js"></script>
+</body>
+
+</html>
