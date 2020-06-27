@@ -60,18 +60,11 @@ h2 {
   color: white;
 }
 
-/* social media icons sidebar */
-.socialbar {
-  display: flex;
-  padding-top: 300px;
-}
-
 /* social media icons animation */
 .social {
-  padding-top: 100px;
+  padding-top: 300px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .social2 {
