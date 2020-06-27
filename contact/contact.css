@@ -61,11 +61,6 @@ h2 {
 }
 
 /* social media icons sidebar */
-.fab,
-a {
-  color: #818181;
-}
-
 .socialbar {
   display: flex;
   padding-top: 300px;
@@ -73,6 +68,13 @@ a {
 
 /* social media icons animation */
 .social {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.social2 {
   padding-top: 100px;
   display: flex;
   align-items: center;
@@ -103,6 +105,7 @@ a {
 
 .social-buttons a i {
   transition: 0.3s ease-in;
+  color: #0d6efd;
 }
 
 .social-buttons a:hover i {
@@ -110,4 +113,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(2.2);
+}
+
+#follow {
+  margin-left: 18%;
+}
+
+#mail {
+  margin-left: 35%;
 }
