@@ -108,6 +108,19 @@ h2 {
   transform: scale(2.2);
 }
 
+img {
+  width: 350px;
+  height: 700px;
+  margin-top: 10px;
+  border-radius: 5%;
+  float: right;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
 #follow {
   margin-left: 18%;
 }
