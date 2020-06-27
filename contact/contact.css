@@ -29,7 +29,7 @@ body {
 
 .fab:hover,
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: pink;
 }
 
 .sidenav .closebtn {
@@ -57,7 +57,7 @@ body {
 /* side nav title */
 h2 {
   margin-left: 20px;
-  color: white;
+  color: pink;
 }
 
 /* social media icons animation */
@@ -102,7 +102,7 @@ h2 {
 }
 
 .social-buttons a:hover i {
-  background: linear-gradient(45deg, #ebd8e8, #e484c7);
+  background: linear-gradient(45deg, pink, pink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(2.2);
@@ -115,10 +115,6 @@ img {
   border-radius: 5%;
   float: right;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
-
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
 }
 
 #follow {

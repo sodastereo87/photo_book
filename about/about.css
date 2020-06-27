@@ -41,7 +41,7 @@ body {
 
 .fab:hover,
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: pink;
 }
 
 .sidenav .closebtn {
@@ -73,7 +73,7 @@ h1 {
 /* side nav title */
 h2 {
   margin-left: 20px;
-  color: white;
+  color: pink;
 }
 
 /* social media icons */
