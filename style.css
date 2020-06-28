@@ -105,7 +105,7 @@ footer {
 }
 
 /* images modal */
-#myImg:hover {
+.myImg:hover {
   opacity: 0.7;
 }
 /* The Modal (background) */
