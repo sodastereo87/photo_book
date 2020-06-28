@@ -77,6 +77,23 @@ h2 {
   padding-top: 300px;
 }
 
+/* arrow button up */
+
+#up {
+  color: #818181;
+  float: right;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+#up:hover {
+  color: pink;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* footer */
 
 footer {
