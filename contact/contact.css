@@ -126,14 +126,14 @@ img {
   justify-content: center;
 }
 
-#follow {
+#follow,
+.media {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
 #mail {
-  margin-left: 35%;
+  margin-left: 40%;
 }
 
 /* footer */
