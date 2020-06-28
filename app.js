@@ -11,8 +11,8 @@ function closeNav() {
   document.body.style.backgroundColor = 'white';
 }
 
-// // Modal images
-// // Get the modal
+// Modal images
+// Get the modal
 var modal = document.getElementById('myModal');
 var i;
 
